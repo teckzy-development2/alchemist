@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationFavourites"
+        android:title="Favourites"
+        android:icon="@drawable/favourites_menu"/>
+
+    <item
+        android:id="@+id/navigationSubscription"
+        android:title="Subscription"
+        android:icon="@drawable/favourites_menu"/>
+
+    <item
+        android:id="@+id/navigationShareApp"
+        android:title="Share App"
+        android:icon="@drawable/share_app"/>
+    <item
+        android:id="@+id/navigationPrivacyPolicy"
+        android:title="Privacy Policy"
+        android:icon="@drawable/privacy_policy"/>
+    <item
+        android:id="@+id/navigationAbout"
+        android:title="About"
+        android:icon="@drawable/about"/>
+
+    <item
+        android:id="@+id/navigationChangePassword"
+        android:title="Change Password"
+        android:icon="@drawable/change_password"/>
+
+    <item
+        android:id="@+id/navigationTermsConditions"
+        android:title="Terms and Conditions"
+        android:icon="@drawable/terms_conditions"/>
+
+    <item
+        android:id="@+id/navigationContactUs"
+        android:title="Contact Us"
+        android:icon="@drawable/contact_us"/>
+
+    <item
+        android:id="@+id/navigationFeedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedback"/>
+
+    <item
+        android:id="@+id/navigationLogout"
+        android:title="Logout"
+        android:icon="@drawable/logout_black_24dp"/>
+</menu>

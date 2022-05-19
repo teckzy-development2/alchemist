@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dark_bg_2">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvFavourites"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Favourites"
+                android:drawableStart="@drawable/favourites"
+                android:background="@drawable/white_bg"
+                android:textColor="@color/theme_color"
+                android:padding="10dp"
+                android:fontFamily="@font/oxygen_bold"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tvTestFromLesson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test from the Lesson"
+                android:drawableStart="@drawable/test"
+                android:background="@drawable/white_bg"
+                android:textColor="@color/theme_color"
+                android:padding="10dp"
+                android:fontFamily="@font/oxygen_bold"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tvPositiveStatements"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Positive Statements"
+                android:drawableStart="@drawable/positive"
+                android:background="@drawable/white_bg"
+                android:textColor="@color/theme_color"
+                android:padding="10dp"
+                android:fontFamily="@font/oxygen_bold"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tvNegativeStatements"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Negative Statements"
+                android:drawableStart="@drawable/negative"
+                android:background="@drawable/white_bg"
+                android:textColor="@color/theme_color"
+                android:padding="10dp"
+                android:fontFamily="@font/oxygen_bold"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tvPositiveQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Positive Questions"
+                android:drawableStart="@drawable/lightbulb"
+                android:background="@drawable/white_bg"
+                android:textColor="@color/theme_color"
+                android:padding="10dp"
+                android:fontFamily="@font/oxygen_bold"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tvNegativeQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Negative Questions"
+                android:drawableStart="@drawable/favourites"
+                android:background="@drawable/white_bg"
+                android:textColor="@color/theme_color"
+                android:padding="10dp"
+                android:fontFamily="@font/oxygen_bold"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tvWhQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WH Questions"
+                android:drawableStart="@drawable/problem"
+                android:background="@drawable/white_bg"
+                android:textColor="@color/theme_color"
+                android:padding="10dp"
+                android:fontFamily="@font/oxygen_bold"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tvIndirectSpeech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indirect Speech"
+                android:drawableStart="@drawable/indirect"
+                android:background="@drawable/white_bg"
+                android:textColor="@color/theme_color"
+                android:padding="10dp"
+                android:fontFamily="@font/oxygen_bold"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/tvPassiveVoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Passive Voice"
+                android:drawableStart="@drawable/passive"
+                android:background="@drawable/white_bg"
+                android:textColor="@color/theme_color"
+                android:padding="10dp"
+                android:fontFamily="@font/oxygen_bold"
+                android:textSize="17sp"
+                android:drawablePadding="10dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

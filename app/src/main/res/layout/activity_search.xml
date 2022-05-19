@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lite_bg_1">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search by Sentence / Word"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etStarts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Starts with"
+        android:maxLength="50"
+        android:fontFamily="@font/oxygen_regular"
+        android:background="@drawable/et_bg"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etEnds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ends with"
+        android:maxLength="50"
+        android:fontFamily="@font/oxygen_regular"
+        android:background="@drawable/et_bg"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etContains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contains"
+        android:maxLength="50"
+        android:fontFamily="@font/oxygen_regular"
+        android:background="@drawable/et_bg"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:fontFamily="@font/oxygen_regular"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_margin="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/border_grey"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Classroom"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Words"
+        android:background="@drawable/white_bg"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:layout_margin="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvSentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sentence"
+        android:background="@drawable/white_bg"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:layout_margin="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvTestUptodate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test up to Date"
+        android:background="@drawable/white_bg"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:layout_margin="10dp"
+        android:gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigationSearch"
+        android:enabled="true"
+        android:icon="@drawable/search_menu"
+        android:title="Search"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/empty"
+        android:enabled="false"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/navigationLearning"
+        android:enabled="true"
+        android:icon="@drawable/learning"
+        android:title="Learning"
+        app:showAsAction="always|withText" />
+</menu>

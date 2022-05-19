@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark_bg_2"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Language Selection"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:padding="10dp"
+        android:background="@drawable/white_bg"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/language_selection"
+        android:drawablePadding="10dp"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause Translation"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:padding="10dp"
+        android:background="@drawable/white_bg"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/pause_translation"
+        android:drawablePadding="10dp"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause Selected Language"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:padding="10dp"
+        android:background="@drawable/white_bg"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/dialog"
+        android:drawablePadding="10dp"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Animations"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:padding="10dp"
+        android:background="@drawable/white_bg"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/text_animations"
+        android:drawablePadding="10dp"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Background Music"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:padding="10dp"
+        android:background="@drawable/white_bg"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/background_music"
+        android:drawablePadding="10dp"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Language Swap"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="@color/theme_color"
+        android:padding="10dp"
+        android:background="@drawable/white_bg"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/translation"
+        android:drawablePadding="10dp"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        tools:ignore="RtlCompat" />
+
+</LinearLayout>

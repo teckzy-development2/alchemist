@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teckzy.alchemist">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Alchemist">
+        <activity
+            android:name=".LoginSignUp.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LoginSignUp.ForgotPassword"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LoginSignUp.OTPVerification"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LoginSignUp.ChangeForgotPassword"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LoginSignUp.Register"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Notification"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainMenu.Lessons"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainMenu.Words"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainMenu.Search"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainMenu.Links"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainMenu.Options"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LessonExplanation"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LinksVideoView"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LessonStatement"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Search.SearchList"
+            android:screenOrientation="portrait" />
+        <activity android:name=".WordStatement"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LessonFavourites"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

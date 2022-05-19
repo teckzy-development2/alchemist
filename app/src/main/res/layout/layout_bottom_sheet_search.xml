@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/border_grey"
+    android:padding="5dp"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/llSearchBySentence"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/white_bg"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search_sentence"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search by \nSentence"
+            android:layout_gravity="center"
+            android:fontFamily="@font/oxygen_regular"
+            android:textColor="@color/theme_color"
+            android:padding="10dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSearchByWord"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/white_bg"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search_word"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search by \nWord"
+            android:layout_gravity="center"
+            android:fontFamily="@font/oxygen_regular"
+            android:textColor="@color/theme_color"
+            android:padding="10dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

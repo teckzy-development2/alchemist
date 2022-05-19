@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/lite_bg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rate your Experience with our services"
+                android:fontFamily="@font/oxygen_regular"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textColor="@color/theme_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivRating1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/favourites_border"
+                    android:background="@drawable/star_bg"
+                    android:layout_margin="5dp"
+                    android:padding="8dp" />
+
+                <ImageView
+                    android:id="@+id/ivRating2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/favourites_border"
+                    android:background="@drawable/star_bg"
+                    android:layout_margin="5dp"
+                    android:padding="8dp" />
+
+                <ImageView
+                    android:id="@+id/ivRating3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/favourites_border"
+                    android:background="@drawable/star_bg"
+                    android:layout_margin="5dp"
+                    android:padding="8dp" />
+
+                <ImageView
+                    android:id="@+id/ivRating4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/favourites_border"
+                    android:background="@drawable/star_bg"
+                    android:layout_margin="5dp"
+                    android:padding="8dp" />
+
+                <ImageView
+                    android:id="@+id/ivRating5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/favourites_border"
+                    android:background="@drawable/star_bg"
+                    android:layout_margin="5dp"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:id="@+id/tvRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 stars"
+                    android:fontFamily="@font/oxygen_regular"
+                    android:layout_gravity="center"
+                    android:textSize="17sp"
+                    android:padding="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anything that can be improved"
+                android:fontFamily="@font/oxygen_light"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/theme_color" />
+
+            <EditText
+                android:id="@+id/etFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Feedback (optional)"
+                android:background="@drawable/et_bg"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:fontFamily="@font/oxygen_bold"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
